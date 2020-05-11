@@ -1,0 +1,7 @@
+rspec --format html --out report.hmtl
+Relatório em formato HTML
+
+rspec --format RspecJunitFormatter --out report.xml
+
+Necessita da Gem 
+gem 'rspec_junit_formatter'
